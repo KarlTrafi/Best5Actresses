@@ -22,7 +22,7 @@ $(function(){
                 $(this).addClass("hovered");
             },
             function(){
-                $(this).remove("hovered");  
+                $(this).removeClass("hovered");  
             }
             );
 
